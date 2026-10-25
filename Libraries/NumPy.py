@@ -14,3 +14,10 @@ print("The max of marks are: ", np.max(marks))
 print(np.zeros(5))
 print(np.ones(5))
 print(np.arange(0,6))
+
+data = np.array([[1,2,3,4], [5,6,7,8]]) # Matrix or 2d array
+print(data)
+
+x = np.array([2,65,10])
+y = np.array([7,20,49])
+print(x+y*2)
